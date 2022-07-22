@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgb(202, 240, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alarm-box {
+    width: 550px;
+    height: 590px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+}
+
+button {
+    width: 410px;
+    border: 0px;
+    height: 75px;
+    background-color: #4A98F7;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+span {
+    font-size: 3rem;
+}
+
+select {
+    width: 120px;
+    height: 63px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 19px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 20px 0px;
+}
+.alarm-btns{
+    display: flex;
+}
+#minsel{
+    margin: 0px 25px;
+    margin-top: 20px;
+}
+.time-show{
+    padding-top: 20px;
+    margin: 20px 0px;
+}
